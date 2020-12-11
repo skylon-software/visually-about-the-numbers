@@ -1,0 +1,38 @@
+#include <winver.h>  // to use the constants specified with the VERSIONINFO statement
+
+MAINICON	ICON	"VisuallyAboutTheNumbers.ico"
+
+
+
+1 VERSIONINFO 
+FILEVERSION 2,0,4,3
+PRODUCTVERSION 2,0,4,3
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_APP
+
+{
+   BLOCK "StringFileInfo"
+   {
+     BLOCK "041904E3"
+	   //BLOCK "000004B0"
+     {
+       VALUE "CompanyName", "Skylon Software\000"
+       VALUE "FileDescription", "–азвивающ€€ программа дл€ детей\000"
+       VALUE "FileVersion", "2.0.4.3\000"
+///       VALUE "InternalName", "Aurelia\000"
+       VALUE "LegalCopyright", "© 2011-2020, —алахутдинов ћарат –афикович\000"
+//       VALUE "LegalTrademarks", "TRADEMARKS\000"
+///       VALUE "OriginalFilename", "Aurelia.exe\000"
+///       VALUE "ProductName", "Aurelia\000"
+       VALUE "ProductVersion", "2.0.4.3\000"
+       VALUE "Comments", "–ебенок спрашивает ¬ас: Уа тыс€ча Ц это много?Ф, Уа миллион Ц это много?Ф? ЂЌагл€дно о числахї поможет ответить на такие вопросы. ¬ программе можно ввести любое число (начина€ с нул€) и оценить визуально соответствующее этому числу количество точек.\000"
+     }
+   }
+
+   BLOCK "VarFileInfo"
+   {
+     //VALUE "Translation", 1049, 1251
+	   VALUE "Translation",  1049, 1251, 1092, 1252, 0009, 1252
+   }
+ }
